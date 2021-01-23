@@ -1,0 +1,6 @@
+cscript configure.js compiler=msvc cruntime=/MT debug=no static=yes zlib=yes iconv=yes ^
+prefix=D:\Projects\lib\libxml2-2.9.2 ^
+include=D:\Projects\lib\libiconv-1.16\include;D:\Projects\lib\zlib-1.2.11\include ^
+lib=D:\Projects\lib\libiconv-1.16\x86\static\release\lib;D:\Projects\lib\zlib-1.2.11\lib\x86\release-static ^
+incdir=D:\Projects\lib\libxml2-2.9.2\include ^
+libdir=D:\Projects\lib\libxml2-2.9.2\x86\static\release
